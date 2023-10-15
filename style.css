@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background: linear-gradient(to right ,pink,rgb(0, 174, 255));
+}
+#content {
+    background-color: rgb(238, 237, 229);
+    height: auto;
+    max-width: 100%;
+    border: 2px solid rgb(32, 24, 24);
+   
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgb(53, 52, 53);
+    padding: 15px;
+    
+   
+}
+
+#quote {
+   
+    font-weight: 700;
+    color: crimson;
+    font-size: x-large;
+   
+}
+
+#author {
+   font-size: x-large;
+   
+    margin-top: 10px;
+}
+button {
+    margin-bottom: 15px;
+    background-color: rgb(233, 115, 213);
+
+    border-radius: 5px;
+    height: 30px;
+}
