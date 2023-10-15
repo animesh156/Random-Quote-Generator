@@ -2,25 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
 
-    <div id="displayQuote">
-        <!-- Quote will be displayed here -->
-    </div>
 
-    <div id="click">
+   
+ <div id="content">
+    <div>
 
-        <button id="btn" onclick="myfun()" type="button">Generate Quote</button>
+        <i class="fa-solid fa-quote-left fa-fade fa-xl" style="color: #0ff807;"></i>
+
+
+        <span id="quote"></span>
+
+        <i class="fa-solid fa-quote-right fa-fade fa-xl" style="color: #0ff807;"></i>
+
+
+
+
         
     </div>
+     <h2 id="author"></h2>
+     
+     
+     <button onclick="getQuote()">Generate Quote</button>
+     
+     
+    </div>
 
-    <script src="script.js"></script>
+
+<script src="script.js"></script>
+    
 </body>
 </html>
